@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Proyectoinfinito/static/css/main.c1e8c5fe.css",
-    "main.js": "/Proyectoinfinito/static/js/main.c3e8f17d.js",
-    "static/js/787.2a1d827a.chunk.js": "/Proyectoinfinito/static/js/787.2a1d827a.chunk.js",
-    "static/media/logoinf.svg": "/Proyectoinfinito/static/media/logoinf.502d50ab5ed8f77b65c976cf6a6cfc68.svg",
-    "static/media/puedeserpa.svg": "/Proyectoinfinito/static/media/puedeserpa.c3e40ac418fdeb1e584c1124590f6d61.svg",
-    "index.html": "/Proyectoinfinito/index.html",
-    "main.c1e8c5fe.css.map": "/Proyectoinfinito/static/css/main.c1e8c5fe.css.map",
-    "main.c3e8f17d.js.map": "/Proyectoinfinito/static/js/main.c3e8f17d.js.map",
-    "787.2a1d827a.chunk.js.map": "/Proyectoinfinito/static/js/787.2a1d827a.chunk.js.map"
+    "main.css": "/proyectoinfinito/static/css/main.c1e8c5fe.css",
+    "main.js": "/proyectoinfinito/static/js/main.7dfb672d.js",
+    "static/js/787.2a1d827a.chunk.js": "/proyectoinfinito/static/js/787.2a1d827a.chunk.js",
+    "static/media/logoinf.svg": "/proyectoinfinito/static/media/logoinf.502d50ab5ed8f77b65c976cf6a6cfc68.svg",
+    "static/media/puedeserpa.svg": "/proyectoinfinito/static/media/puedeserpa.c3e40ac418fdeb1e584c1124590f6d61.svg",
+    "index.html": "/proyectoinfinito/index.html",
+    "main.c1e8c5fe.css.map": "/proyectoinfinito/static/css/main.c1e8c5fe.css.map",
+    "main.7dfb672d.js.map": "/proyectoinfinito/static/js/main.7dfb672d.js.map",
+    "787.2a1d827a.chunk.js.map": "/proyectoinfinito/static/js/787.2a1d827a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1e8c5fe.css",
-    "static/js/main.c3e8f17d.js"
+    "static/js/main.7dfb672d.js"
   ]
 }
