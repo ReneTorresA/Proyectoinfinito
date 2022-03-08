@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/proyectoinfinito/static/css/main.c1e8c5fe.css",
-    "main.js": "/proyectoinfinito/static/js/main.dab6386d.js",
+    "main.js": "/proyectoinfinito/static/js/main.5a336cdc.js",
     "static/js/787.2a1d827a.chunk.js": "/proyectoinfinito/static/js/787.2a1d827a.chunk.js",
     "static/media/logoinf.svg": "/proyectoinfinito/static/media/logoinf.502d50ab5ed8f77b65c976cf6a6cfc68.svg",
     "static/media/puedeserpa.svg": "/proyectoinfinito/static/media/puedeserpa.c3e40ac418fdeb1e584c1124590f6d61.svg",
     "index.html": "/proyectoinfinito/index.html",
     "main.c1e8c5fe.css.map": "/proyectoinfinito/static/css/main.c1e8c5fe.css.map",
-    "main.dab6386d.js.map": "/proyectoinfinito/static/js/main.dab6386d.js.map",
+    "main.5a336cdc.js.map": "/proyectoinfinito/static/js/main.5a336cdc.js.map",
     "787.2a1d827a.chunk.js.map": "/proyectoinfinito/static/js/787.2a1d827a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1e8c5fe.css",
-    "static/js/main.dab6386d.js"
+    "static/js/main.5a336cdc.js"
   ]
 }
