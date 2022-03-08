@@ -24,8 +24,8 @@ function App() {
         </div>}/>
         
 
-        <Route path='/proyectoinfinito/python/*' element={<PythonPage/>}/>
-        <Route path='/proyectoinfinito/calculo3/*' element={<CalculoIIIPage/>}/>
+        <Route path='./python/*' element={<PythonPage/>}/>
+        <Route path='./calculo3/*' element={<CalculoIIIPage/>}/>
 
 
       </Routes>
