@@ -31,7 +31,7 @@ function Main() {
                 <div className="card-body text-center">
                     <h5 className="card-title">Curso de introducción a la programación (Python)</h5>
                     <p className="card-text">Curso de introducción a la programación con Python, orientado a las personas que quieran iniciarse en el mundo de la programación.</p>
-                    <NavLink to="/Python" className="btn btn-warning">Ir al curso</NavLink></div>
+                    <NavLink to="/python" className="btn btn-warning">Ir al curso</NavLink></div>
                 </div>
                 </div>
 

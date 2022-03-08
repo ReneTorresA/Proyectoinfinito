@@ -5,14 +5,15 @@ import Main from './components/Main'
 import './App.css'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import PythonPage from './components/Pages/PythonPage'
-import Pagepython2 from './components/Pages/Pagepython2'
-import './components/Pages/Funcioncreador'
+import './components/Pages/Funcioncreadorpy'
+import CalculoIIIPage from './components/Pages/CalculoIIIPage'
 
 function App() {
   return (
 
     <BrowserRouter>
 
+      
       <Header/>
         
       <Routes>    
@@ -23,8 +24,8 @@ function App() {
         </div>}/>
         
 
-        <Route path='/Python/*' element={<PythonPage/>}/>
-        <Route path='/Python2/*' element={<Pagepython2/>}/>
+        <Route path='/python/*' element={<PythonPage/>}/>
+        <Route path='/calculo3/*' element={<CalculoIIIPage/>}/>
 
 
       </Routes>

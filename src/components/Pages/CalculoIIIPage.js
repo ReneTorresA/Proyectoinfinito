@@ -26,13 +26,13 @@ function PythonPage() {
               <div className="row">
                 <div className="col-lg-12">
                   <h2 className="h2 mt-5 text-top  mb-3">
-                    Curso de introducción a la programación con Python desde 0
+                    Curso de Cálculo III para Ingeniería
                   </h2>
                 </div>
 
                 <div className="col-lg-12">
                   <p className="text-left">
-                    Aprende a programar con Python desde 0!.
+                    Pasa el ramo con este curso!.
                   </p>
                 </div>
 
@@ -72,7 +72,7 @@ function PythonPage() {
                           <path d="M8.5 5a.5.5 0 0 0-1 0v2.5H6a.5.5 0 0 0 0 1h2a.5.5 0 0 0 .5-.5V5z" />
                           <path d="M5.667 16C4.747 16 4 15.254 4 14.333v-1.86A5.985 5.985 0 0 1 2 8c0-1.777.772-3.374 2-4.472V1.667C4 .747 4.746 0 5.667 0h4.666C11.253 0 12 .746 12 1.667v1.86a5.99 5.99 0 0 1 1.918 3.48.502.502 0 0 1 .582.493v1a.5.5 0 0 1-.582.493A5.99 5.99 0 0 1 12 12.473v1.86c0 .92-.746 1.667-1.667 1.667H5.667zM13 8A5 5 0 1 0 3 8a5 5 0 0 0 10 0z" />
                         </svg>{" "}
-                        Duración: 5 hrs
+                        Duración: 10 hrs
                       </p>
                     </div>
 
@@ -88,7 +88,7 @@ function PythonPage() {
                         >
                           <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z" />
                         </svg>{" "}
-                        Nivel: Principiante
+                        Nivel: Avanzado
                       </p>
                     </div>
 
@@ -119,7 +119,7 @@ function PythonPage() {
                         <path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5H3z" />
                         <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
                       </svg>{" "}
-                      Una Computadora
+                      Mucha dedicación
                     </li>
                   </ul>
                 </div>
@@ -171,7 +171,7 @@ function PythonPage() {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                 Módulo 1 
+                 Módulo 1: Repaso vectores
                   
                 </button>
               </h2>
@@ -219,7 +219,7 @@ function PythonPage() {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Módulo 2
+                  Módulo 2: Funciones de 2 o más variables
                 </button>
               </h2>
               <div
