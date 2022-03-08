@@ -7,7 +7,8 @@ import {NavLink} from 'react-router-dom'
 function Header() {
 
 
-    return  <nav id="main-nav" className="navbar py-4 fixed-top navbar-expand-lg navbar-light bg-light">
+    return <section>  
+    <nav id="main-nav" className="navbar py-4 fixed-top navbar-expand-lg navbar-light bg-light">
         <div className='container'>
             <NavLink className="navbar-brand d-flex" to="/">
             
@@ -34,7 +35,7 @@ function Header() {
     </div>
         </div>
   </nav>
-  
+  </section>
     
        
     

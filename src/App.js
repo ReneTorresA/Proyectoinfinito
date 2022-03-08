@@ -14,13 +14,12 @@ function App() {
     <HashRouter>
 
       
-      
+      <Header/>
         
       <Routes>    
         <Route path='/*' element={<div>
-        
+          <Header/>
           <Main/>  
-          <Footer/>
         </div>}/>
         
 
