@@ -19,7 +19,7 @@ function Main() {
                 <div className="card-body text-center">
                     <h5 className="card-title">Cálculo III / Avanzado / Vectorial para Ingeniería</h5>
                     <p className="card-text">Curso de Cálculo III para Ingeniería, con un enfoque práctico de resolución de ejercicios de tipo prueba, abarcamos de lo más basico a lo más complejo</p>
-                    <NavLink to="./calculo3" className="btn btn-warning"> Ir al curso</NavLink>
+                    <NavLink to="/calculo3" className="btn btn-warning"> Ir al curso</NavLink>
                 </div>
                 </div>
                 </div>
@@ -31,7 +31,7 @@ function Main() {
                 <div className="card-body text-center">
                     <h5 className="card-title">Curso de introducción a la programación (Python)</h5>
                     <p className="card-text">Curso de introducción a la programación con Python, orientado a las personas que quieran iniciarse en el mundo de la programación.</p>
-                    <NavLink to="./python" className="btn btn-warning">Ir al curso</NavLink></div>
+                    <NavLink to="/python" className="btn btn-warning">Ir al curso</NavLink></div>
                 </div>
                 </div>
 
@@ -42,7 +42,7 @@ function Main() {
                 <div className="card-body text-center">
                     <h5 className="card-title pb-auto">Física para la PDU/PAES</h5>
                     <p className="card-text">Prepara tu PAES de física con este curso, dividido en modulo de plan común y electivo. Con este curso te aseguras de obtener un buen puntaje y poder entrar a esa carrera que tanto sueñas</p>
-                    <NavLink to="./fisica" className="btn btn-warning">Ir al Curso</NavLink>
+                    <NavLink to="/fisica" className="btn btn-warning">Ir al Curso</NavLink>
                 </div>
                 </div>
                 </div>

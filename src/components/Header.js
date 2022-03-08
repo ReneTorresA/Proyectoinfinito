@@ -21,13 +21,13 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-            <NavLink className="nav-link" to="/proyectoinfinito/">Inicio <span className="sr-only"></span></NavLink>
+            <NavLink className="nav-link" to="/">Inicio <span className="sr-only"></span></NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/proyectoinfinito/Cursos">Cursos</NavLink>
+            <NavLink className="nav-link" to="/Cursos">Cursos</NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/proyectoinfinito/Contacto">Contacto</NavLink>
+            <NavLink className="nav-link" to="/Contacto">Contacto</NavLink>
             </li>
            
         </ul>
