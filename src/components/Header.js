@@ -9,7 +9,7 @@ function Header() {
 
     return  <nav id="main-nav" className="navbar py-4 fixed-top navbar-expand-lg navbar-light bg-light">
         <div className='container'>
-            <NavLink className="navbar-brand d-flex" to="/">
+            <NavLink className="navbar-brand d-flex" to="/proyectoinfinito">
             
                 <img src={logo2} lt="Logo infinito" width="49" height="24" className="d-inline-block align-text-top" />
                 ㅤProyecto Infinito

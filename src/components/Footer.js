@@ -11,7 +11,7 @@ function Footer() {
         <div className="container p-4" >
               <div className="text-center p-3">
                 © 2020 Copyright:
-                <a className="text-white" href="/">MDBootstrap.com </a>
+                <a className="text-white" href="/">René Torres </a>
               
               
               </div>
