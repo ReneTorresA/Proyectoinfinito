@@ -17,7 +17,7 @@ function App() {
       <Header/>
         
       <Routes>    
-        <Route path='/' element={<div>
+        <Route path='/*' element={<div>
         
           <Main/>  
           <Footer/>
