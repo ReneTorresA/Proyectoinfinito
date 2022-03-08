@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Main from './components/Main'
+import './App.css'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import PythonPage from './components/Pages/PythonPage'
+import Pagepython2 from './components/Pages/Pagepython2'
+import './components/Pages/Funcioncreador'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <BrowserRouter>
+
+      <Header/>
+        
+      <Routes>    
+        <Route path='/' element={<div>
+        
+          <Main/>  
+          <Footer/>
+        </div>}/>
+        
+
+        <Route path='/Python/*' element={<PythonPage/>}/>
+        <Route path='/Python2/*' element={<Pagepython2/>}/>
+
+
+      </Routes>
+    </BrowserRouter>
+
+  )
 }
 
-export default App;
+export default App 
