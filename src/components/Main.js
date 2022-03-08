@@ -1,9 +1,11 @@
 import React from "react";
 import '../App.css'
 import {NavLink} from 'react-router-dom'
+import Header from "./Header";
 function Main() {
 
     return <div className="App"> 
+    <Header/>
     <div className="d-flex justify-content-center align-items-center  h-100">
     
     <div className="container "> 
