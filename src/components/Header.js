@@ -9,7 +9,7 @@ function Header() {
 
     return  <nav id="main-nav" className="navbar py-4 fixed-top navbar-expand-lg navbar-light bg-light">
         <div className='container'>
-            <NavLink className="navbar-brand d-flex" to="/proyectoinfinito">
+            <NavLink className="navbar-brand d-flex" to="/proyectoinfinito/">
             
                 <img src={logo2} lt="Logo infinito" width="49" height="24" className="d-inline-block align-text-top" />
                 ㅤProyecto Infinito
@@ -21,13 +21,13 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-            <NavLink className="nav-link" to="/">Inicio <span className="sr-only"></span></NavLink>
+            <NavLink className="nav-link" to="/proyectoinfinito/">Inicio <span className="sr-only"></span></NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/Cursos">Cursos</NavLink>
+            <NavLink className="nav-link" to="/proyectoinfinito/Cursos">Cursos</NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/Contacto">Contacto</NavLink>
+            <NavLink className="nav-link" to="/proyectoinfinito/Contacto">Contacto</NavLink>
             </li>
            
         </ul>
