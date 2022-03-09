@@ -13,7 +13,16 @@ function PythonPage() {
         {id: 2 ,titulo:'Primera clase'}
         
     ]; 
-   
+
+    const siguienteboton = () => {
+      if(contar <=0){
+        setContar(contar + 1)}
+    }
+    const anteriorboton = () => {
+      if(contar >=1){
+        setContar(contar - 1)}
+    }
+
 
   return (
     <div className="App_pythonpage">
@@ -306,8 +315,8 @@ function PythonPage() {
                                 <Funcioncreador2 urlv={contar}/>
                             </div>    
                             <div className='modal-footer'>
-                                <button type="button" className="btn btn-secondary ms-3  position-absolute start-0" onClick={()=> { if (contar>=1){setContar(contar -1)}}}>Anterior</button>
-                                <button type="button" className="btn btn-secondary"  onClick={()=> {if(contar <=0){setContar(contar + 1)}}}> Siguiente</button>
+                                <button type="button" className="btn btn-secondary ms-3  position-absolute start-0" onClick={anteriorboton}>Anterior</button>
+                                <button type="button" className="btn btn-secondary"  onClick={siguienteboton}> Siguiente</button>
                             </div>
                         </div>
 

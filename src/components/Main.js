@@ -10,8 +10,6 @@ function Main() {
     <div className="container containers"> 
     <hr className="my-5" />
     
-        
-    
             <div className="row mt-5 pt-4 mb-1">
                 
 
