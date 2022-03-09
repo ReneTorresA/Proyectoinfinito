@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/proyectoinfinito/static/css/main.445c17c0.css",
-    "main.js": "/proyectoinfinito/static/js/main.cabaa9c1.js",
+    "main.css": "/proyectoinfinito/static/css/main.f38b3a93.css",
+    "main.js": "/proyectoinfinito/static/js/main.8005cf86.js",
     "static/js/787.2a1d827a.chunk.js": "/proyectoinfinito/static/js/787.2a1d827a.chunk.js",
     "static/media/logoinf.svg": "/proyectoinfinito/static/media/logoinf.502d50ab5ed8f77b65c976cf6a6cfc68.svg",
     "static/media/puedeserpa.svg": "/proyectoinfinito/static/media/puedeserpa.c3e40ac418fdeb1e584c1124590f6d61.svg",
     "index.html": "/proyectoinfinito/index.html",
-    "main.445c17c0.css.map": "/proyectoinfinito/static/css/main.445c17c0.css.map",
-    "main.cabaa9c1.js.map": "/proyectoinfinito/static/js/main.cabaa9c1.js.map",
+    "main.f38b3a93.css.map": "/proyectoinfinito/static/css/main.f38b3a93.css.map",
+    "main.8005cf86.js.map": "/proyectoinfinito/static/js/main.8005cf86.js.map",
     "787.2a1d827a.chunk.js.map": "/proyectoinfinito/static/js/787.2a1d827a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.445c17c0.css",
-    "static/js/main.cabaa9c1.js"
+    "static/css/main.f38b3a93.css",
+    "static/js/main.8005cf86.js"
   ]
 }
