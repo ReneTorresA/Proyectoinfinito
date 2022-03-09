@@ -17,7 +17,7 @@ function PythonPage() {
 
   return (
     <div className="App_pythonpage">
-      <div className="container  100vh ">
+      <div className="container  100vh">
         <hr className="my-5" />
 
         <section className="container">
@@ -129,38 +129,13 @@ function PythonPage() {
             <div className="col-lg-6 my-5">
              <img className='mx-auto d-block img-fluid'src="https://i.blogs.es/1d8a5b/python1/450_1000.jpg" alt="Curso de Python" ></img>
             </div>
-          </div>
-
-          <div className='modal fade' id='contenedor-modal' tabIndex="-1">
-                    <div className='modal-dialog modal-dialog-centered modal-dialog modal-xl'>
-                        <div className='modal-content'>
-                            <div className='modal-header'>
-                                <h2 className='modal-title h4 text-center'> {inventario[contar].titulo} contador:{contar} </h2>
-                                <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label="Close">
-                                   
-                                </button>
-                            </div>
-                            <div className='modal-body'>
-                              
-                                <Funcioncreador2 urlv={contar}/>
-                            </div>    
-                            <div className='modal-footer'>
-                                <button type="button" className="btn btn-secondary ms-3  position-absolute start-0" onClick={()=> { if (contar>=1){setContar(contar -1)}}}>Anterior</button>
-                                <button type="button" className="btn btn-secondary"  onClick={()=> {if(contar <=0){setContar(contar + 1)}}}> Siguiente</button>
-                            </div>
-                        </div>
-
-                    </div>
-
+          
+            <div className='col-lg-12'>
+                <h1 className= 'h3 text-center'>Contenidos</h1>
             </div>
 
-
-
-          <div>
-              <h1 className= 'h3 text-center'>Contenidos</h1>
-          </div>
-
-          <div className="accordion" id="accordionExample">
+            <div className="col-lg-12">
+            <div className="accordion" id="accordionExample">
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingOne">
                 <button
@@ -273,8 +248,8 @@ function PythonPage() {
                 </div>
               </div>
             </div>
-
-            <div className="accordion-item">
+            
+            <div className="accordion-item mb-3">
               <h2 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
@@ -306,37 +281,72 @@ function PythonPage() {
                 </div>
               </div>
             </div>
-
+          
 
           </div>
+  
 
+
+            </div>
+          
+          </div>
+
+
+          <div className='modal fade' id='contenedor-modal' tabIndex="-1">
+                    <div className='modal-dialog modal-dialog-centered modal-dialog modal-xl'>
+                        <div className='modal-content'>
+                            <div className='modal-header'>
+                                <h2 className='modal-title h4 text-center'> {inventario[contar].titulo} contador:{contar} </h2>
+                                <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label="Close">
+                                   
+                                </button>
+                            </div>
+                            <div className='modal-body'>
+                              
+                                <Funcioncreador2 urlv={contar}/>
+                            </div>    
+                            <div className='modal-footer'>
+                                <button type="button" className="btn btn-secondary ms-3  position-absolute start-0" onClick={()=> { if (contar>=1){setContar(contar -1)}}}>Anterior</button>
+                                <button type="button" className="btn btn-secondary"  onClick={()=> {if(contar <=0){setContar(contar + 1)}}}> Siguiente</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+            
+           
+            </div>
+
+
+
+          
+
+            <hr className="mt-5 pt-0"></hr>
           
         </section>
      
 
 
-        <footer className='bd-footer py-5 mt-5 bg-light'>
-            <div className='container py-5'>
-                <div className='row'>
-                  
-
-                    <div className='col-lg-12'>
-                        <p className='text-center'>Designed by<strong> René Torres</strong></p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </footer>
+      
 
 
 
 
-
-       
+     
       </div>
+      
+      <footer className="bd-footer py-5 mt-4 footers">
+                <div className="container">
+                    <div className='row'>
+                            <div className='col-lg-12'>
+                                <p className='text-center'>Designed by<strong> René Torres</strong></p>
+                            </div>
+
+                    </div>
+                </div>
+      </footer>  
     </div>
+    
   );
 }
 

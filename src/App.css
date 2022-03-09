@@ -7,19 +7,30 @@
    
     height: 100vh;
     width: 100%;
+    background-color: #f8f9fa  !important;
 }
 .App_pythonpage {
 
     height: 50vh;
     width: 100%;
 }
-.footer {
-    display: block;
-    background-color: rgb(22, 20, 20);
-    height: 30px;
-
+.containers{
+    background-color: #f8f9fa !important;
 }
-
+.headers{
+    background-color: #A7DBD8;
+}
+.btn-warning {
+    color: #000 !important;
+    background-color: #F38630 !important;
+    border-color: #F38630  !important;
+}
+.footers{
+    background-color: #A7DBD8;
+}
+.footer{
+    display: block;
+}
 .card-img-top {
     width: 100%;
     height: 15vw;

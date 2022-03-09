@@ -8,7 +8,7 @@ function Header() {
 
 
     return <section>  
-    <nav id="main-nav" className="navbar py-4 fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav id="main-nav" className="navbar py-4 fixed-top navbar-expand-lg navbar-light headers">
         <div className='container'>
             <NavLink className="navbar-brand d-flex" to="/">
             

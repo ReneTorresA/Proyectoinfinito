@@ -1,14 +1,13 @@
 import React from "react";
 import '../App.css'
 import {NavLink} from 'react-router-dom'
-import Header from "./Header";
 function Main() {
 
     return <div className="App"> 
     
-    <div className="d-flex justify-content-center align-items-center 100vh">
+    <div className="d-flex justify-content-center align-items-center 100vh containers">
     
-    <div className="container"> 
+    <div className="container containers"> 
     <hr className="my-5" />
     
         
@@ -94,43 +93,31 @@ function Main() {
 
                 
                 
+            </div>
                 
-
-
-
-
-
-
-
-                
-                </div>
-
-                
-
-
-
-
+               
 
             </div>
-            
+
+          
      
 
 </div>
 
-    <footer className=' container bd-footer bg-light fixed-bottom'>
-                <div className='container py-3'>
-                    <div className='row'>
-                    
 
-                        <div className='col-lg-12'>
-                            <p className='text-center'>Designed by<strong> René Torres</strong></p>
-                        </div>
+            <footer className="bd-footer py-5 footers">
+                <div className="container">
+                    <div className='row'>
+                            <div className='col-lg-12'>
+                                <p className='text-center'>Designed by<strong> René Torres</strong></p>
+                            </div>
 
                     </div>
-
                 </div>
-
             </footer>
+           
+
+   
     </div>
 
 }

@@ -17,7 +17,7 @@ function PythonPage() {
 
   return (
     <div className="App_pythonpage">
-      <div className="container  100vh ">
+      <div className="container  100vh">
         <hr className="my-5" />
 
         <section className="container">
@@ -26,13 +26,13 @@ function PythonPage() {
               <div className="row">
                 <div className="col-lg-12">
                   <h2 className="h2 mt-5 text-top  mb-3">
-                    Curso de Cálculo III para Ingeniería
+                    Curso de introducción a la programación con Python desde 0
                   </h2>
                 </div>
 
                 <div className="col-lg-12">
                   <p className="text-left">
-                    Pasa el ramo con este curso!.
+                    Aprende a programar con Python desde 0!.
                   </p>
                 </div>
 
@@ -72,7 +72,7 @@ function PythonPage() {
                           <path d="M8.5 5a.5.5 0 0 0-1 0v2.5H6a.5.5 0 0 0 0 1h2a.5.5 0 0 0 .5-.5V5z" />
                           <path d="M5.667 16C4.747 16 4 15.254 4 14.333v-1.86A5.985 5.985 0 0 1 2 8c0-1.777.772-3.374 2-4.472V1.667C4 .747 4.746 0 5.667 0h4.666C11.253 0 12 .746 12 1.667v1.86a5.99 5.99 0 0 1 1.918 3.48.502.502 0 0 1 .582.493v1a.5.5 0 0 1-.582.493A5.99 5.99 0 0 1 12 12.473v1.86c0 .92-.746 1.667-1.667 1.667H5.667zM13 8A5 5 0 1 0 3 8a5 5 0 0 0 10 0z" />
                         </svg>{" "}
-                        Duración: 10 hrs
+                        Duración: 5 hrs
                       </p>
                     </div>
 
@@ -88,7 +88,7 @@ function PythonPage() {
                         >
                           <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z" />
                         </svg>{" "}
-                        Nivel: Avanzado
+                        Nivel: Principiante
                       </p>
                     </div>
 
@@ -119,7 +119,7 @@ function PythonPage() {
                         <path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5H3z" />
                         <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
                       </svg>{" "}
-                      Mucha dedicación
+                      Una Computadora
                     </li>
                   </ul>
                 </div>
@@ -129,38 +129,13 @@ function PythonPage() {
             <div className="col-lg-6 my-5">
              <img className='mx-auto d-block img-fluid'src="https://i.blogs.es/1d8a5b/python1/450_1000.jpg" alt="Curso de Python" ></img>
             </div>
-          </div>
-
-          <div className='modal fade' id='contenedor-modal' tabIndex="-1">
-                    <div className='modal-dialog modal-dialog-centered modal-dialog modal-xl'>
-                        <div className='modal-content'>
-                            <div className='modal-header'>
-                                <h2 className='modal-title h4 text-center'> {inventario[contar].titulo} contador:{contar} </h2>
-                                <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label="Close">
-                                   
-                                </button>
-                            </div>
-                            <div className='modal-body'>
-                              
-                                <Funcioncreador2 urlv={contar}/>
-                            </div>    
-                            <div className='modal-footer'>
-                                <button type="button" className="btn btn-secondary ms-3  position-absolute start-0" onClick={()=> { if (contar>=1){setContar(contar -1)}}}>Anterior</button>
-                                <button type="button" className="btn btn-secondary"  onClick={()=> {if(contar <=0){setContar(contar + 1)}}}> Siguiente</button>
-                            </div>
-                        </div>
-
-                    </div>
-
+          
+            <div className='col-lg-12'>
+                <h1 className= 'h3 text-center'>Contenidos</h1>
             </div>
 
-
-
-          <div>
-              <h1 className= 'h3 text-center'>Contenidos</h1>
-          </div>
-
-          <div className="accordion" id="accordionExample">
+            <div className="col-lg-12">
+            <div className="accordion" id="accordionExample">
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingOne">
                 <button
@@ -171,7 +146,7 @@ function PythonPage() {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                 Módulo 1: Repaso vectores
+                 Módulo 1 
                   
                 </button>
               </h2>
@@ -219,7 +194,7 @@ function PythonPage() {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Módulo 2: Funciones de 2 o más variables
+                  Módulo 2
                 </button>
               </h2>
               <div
@@ -273,8 +248,8 @@ function PythonPage() {
                 </div>
               </div>
             </div>
-
-            <div className="accordion-item">
+            
+            <div className="accordion-item mb-3">
               <h2 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
@@ -306,37 +281,72 @@ function PythonPage() {
                 </div>
               </div>
             </div>
-
+          
 
           </div>
+  
 
+
+            </div>
+          
+          </div>
+
+
+          <div className='modal fade' id='contenedor-modal' tabIndex="-1">
+                    <div className='modal-dialog modal-dialog-centered modal-dialog modal-xl'>
+                        <div className='modal-content'>
+                            <div className='modal-header'>
+                                <h2 className='modal-title h4 text-center'> {inventario[contar].titulo} contador:{contar} </h2>
+                                <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label="Close">
+                                   
+                                </button>
+                            </div>
+                            <div className='modal-body'>
+                              
+                                <Funcioncreador2 urlv={contar}/>
+                            </div>    
+                            <div className='modal-footer'>
+                                <button type="button" className="btn btn-secondary ms-3  position-absolute start-0" onClick={()=> { if (contar>=1){setContar(contar -1)}}}>Anterior</button>
+                                <button type="button" className="btn btn-secondary"  onClick={()=> {if(contar <=0){setContar(contar + 1)}}}> Siguiente</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+            
+           
+            </div>
+
+
+
+          
+
+            <hr className="mt-5 pt-0"></hr>
           
         </section>
      
 
 
-        <footer className='bd-footer py-5 mt-5 bg-light'>
-            <div className='container py-5'>
-                <div className='row'>
-                  
-
-                    <div className='col-lg-12'>
-                        <p className='text-center'>Designed by<strong> René Torres</strong></p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </footer>
+      
 
 
 
 
-
-       
+     
       </div>
+      
+      <footer className="bd-footer py-5 mt-4 footers">
+                <div className="container">
+                    <div className='row'>
+                            <div className='col-lg-12'>
+                                <p className='text-center'>Designed by<strong> René Torres</strong></p>
+                            </div>
+
+                    </div>
+                </div>
+      </footer>  
     </div>
+    
   );
 }
 
