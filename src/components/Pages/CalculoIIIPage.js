@@ -26,7 +26,7 @@ function PythonPage() {
               <div className="row">
                 <div className="col-lg-12">
                   <h2 className="h2 mt-5 text-top  mb-3">
-                    Curso de introducción a la programación con Python desde 0
+                    Curso de cáculo III 
                   </h2>
                 </div>
 
