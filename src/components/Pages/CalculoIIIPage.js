@@ -32,7 +32,7 @@ function PythonPage() {
 
                 <div className="col-lg-12">
                   <p className="text-left">
-                    Aprende a programar con Python desde 0!.
+                    Serie de videos tipo ayudantías
                   </p>
                 </div>
 
